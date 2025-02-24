@@ -71,44 +71,39 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+          Hey there! 👋 I'm Jayjeet Kumar, a frontend developer with experience
+          in building modern, responsive web applications using technologies
+          like React.js, Next.js, and Tailwind CSS. I graduated in July 2024
+          with a B.Tech in Computer Science and Engineering from Amity
+          University and have worked on several projects that have helped me
+          improve my skills. 🌐✨
         </Paragraph>
         <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+          💻 One project I'm proud of is AuraUI, a UI component library that
+          helps developers build websites faster by providing reusable,
+          customizable components. I'm also working on Web3Campus, a platform
+          aimed at teaching people about decentralized web technologies, where I
+          use Next.js and MongoDB for scalability and responsiveness. 🚀
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+          🔗 I've gained practical experience through roles like the Software
+          Engineer Fellow at Headstarter, where I built SaaS products and a
+          fitness AI customer support agent. At Kyte, I worked as a Frontend
+          Developer to create responsive UI components using Material UI and
+          Tailwind CSS.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+          🤖 I've participated in hackathons, winning the Polygon Pool Prize at
+          the Road to Web3 Hackathon. I'm passionate about Web3 and AI and
+          always eager to learn new technologies.🌐💡
         </Paragraph>
         <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+          🌈 In short, I'm a frontend developer focused on building
+          user-friendly, scalable applications, with a strong interest in new
+          technologies and innovation. 🚀👨‍💻
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
-        </Paragraph>
+
         <Paragraph className=" mt-4">
           Thank you for being here, and I can&apos;t wait to embark on this
           adventure with you.
