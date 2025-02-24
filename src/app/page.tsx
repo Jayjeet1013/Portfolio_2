@@ -12,11 +12,11 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Jayjeet</Heading>
       <Paragraph className="max-w-xl mt-4">
-        Hey there! 👋 I'm Jayjeet Kumar, a frontend developer with experience in
-        building modern, responsive web applications using technologies like
-        React.js, Next.js, and Tailwind CSS.
+        Hey there! 👋 I&apos;m Jayjeet Kumar, a frontend developer with
+        experience in building modern, responsive web applications using
+        technologies like React.js, Next.js, and Tailwind CSS.
       </Paragraph>
-     
+
       <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"

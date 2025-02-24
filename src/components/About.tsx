@@ -71,35 +71,36 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there! 👋 I'm Jayjeet Kumar, a frontend developer with experience
-          in building modern, responsive web applications using technologies
-          like React.js, Next.js, and Tailwind CSS. I graduated in July 2024
-          with a B.Tech in Computer Science and Engineering from Amity
+          Hey there! 👋 I&apos;m Jayjeet Kumar, a frontend developer with
+          experience in building modern, responsive web applications using
+          technologies like React.js, Next.js, and Tailwind CSS. I graduated in
+          July 2024 with a B.Tech in Computer Science and Engineering from Amity
           University and have worked on several projects that have helped me
           improve my skills. 🌐✨
         </Paragraph>
         <Paragraph className=" mt-4">
-          💻 One project I'm proud of is AuraUI, a UI component library that
-          helps developers build websites faster by providing reusable,
-          customizable components. I'm also working on Web3Campus, a platform
-          aimed at teaching people about decentralized web technologies, where I
-          use Next.js and MongoDB for scalability and responsiveness. 🚀
+          💻 One project I&apos;m proud of is AuraUI, a UI component library
+          that helps developers build websites faster by providing reusable,
+          customizable components. I&apos;m also working on Web3Campus, a
+          platform aimed at teaching people about decentralized web
+          technologies, where I use Next.js and MongoDB for scalability and
+          responsiveness. 🚀
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          🔗 I've gained practical experience through roles like the Software
-          Engineer Fellow at Headstarter, where I built SaaS products and a
-          fitness AI customer support agent. At Kyte, I worked as a Frontend
-          Developer to create responsive UI components using Material UI and
-          Tailwind CSS.
+          🔗 I&apos;ve gained practical experience through roles like the
+          Software Engineer Fellow at Headstarter, where I built SaaS products
+          and a fitness AI customer support agent. At Kyte, I worked as a
+          Frontend Developer to create responsive UI components using Material
+          UI and Tailwind CSS.
         </Paragraph>
         <Paragraph className=" mt-4">
-          🤖 I've participated in hackathons, winning the Polygon Pool Prize at
-          the Road to Web3 Hackathon. I'm passionate about Web3 and AI and
-          always eager to learn new technologies.🌐💡
+          🤖 I&apos;ve participated in hackathons, winning the Polygon Pool
+          Prize at the Road to Web3 Hackathon. I&apos;m passionate about Web3
+          and AI and always eager to learn new technologies.🌐💡
         </Paragraph>
         <Paragraph className=" mt-4">
-          🌈 In short, I'm a frontend developer focused on building
+          🌈 In short, I&apos;m a frontend developer focused on building
           user-friendly, scalable applications, with a strong interest in new
           technologies and innovation. 🚀👨‍💻
         </Paragraph>
