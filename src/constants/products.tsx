@@ -1,129 +1,89 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
+import sidefolioAuraui from "public/images/auraui.webp";
+import sidefolioWeb3Campus from "public/images/web3campus.webp";
+import sidefolioFitnessAI from "public/images/fitnessai.webp";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://auraui.com/",
+    title: "AuraUI",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+      "AuraUI is an open-source component library crafted to help developers build stunning, high-performance websites with ease.",
+    thumbnail: sidefolioAuraui,
+    images: [sidefolioAuraui],
+    stack: ["Nextjs", "Typescript", "Tailwindcss"],
+    slug: "auraui",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Welcome to AuraUI, where design meets functionality. AuraUI is an
+          open-source component library crafted to help developers build
+          stunning, high-performance websites with ease. Whether you're working
+          on a personal project or building the next big thing, AuraUI offers a
+          collection of beautifully designed, fully customizable components that
+          integrate seamlessly with Next.js and Tailwind CSS.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Our mission is to empower developers with tools that simplify the
+          development process while maintaining a professional and polished
+          aesthetic. Join our growing community of contributors and innovators,
+          and let's create something extraordinary together. Explore AuraUI, and
+          see how it can elevate your next project.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://web3-campus.vercel.app/",
+    title: "Web3Campus",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+      "Web3 Campus is an educational platform dedicated to teaching Web3.",
+    thumbnail: sidefolioWeb3Campus,
+    images: [sidefolioWeb3Campus],
+    stack: ["Nextjs", "Typescript", "Tailwindcss"],
+    slug: "web3campus",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          WEB3CAMPUS is a platform dedicated to mastering the intricacies of
+          Web3 technology.It empowers individuals with the knowledge and skills
+          needed to thrive in the decentralized future. You can learn about
+          platforms, YouTube channels, tech, and courses related to Web3.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          You can also explore documentaries, whitepapers, projects, and a Web3
+          glossary. Additionally, you can earn through participating in
+          hackathons and finding jobs. The platform aims to unleash the power of
+          Web3 education.At Web3Campus, we are passionate about empowering
+          individuals with the knowledge and skills needed to thrive in the
+          decentralized future.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://fitness-ai-theta.vercel.app/",
+    title: "FitnessAI",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+      "Fitness AI is an intelligent health application that helps users achieve their wellness goals.",
+    thumbnail: sidefolioFitnessAI,
+    images: [sidefolioFitnessAI],
+    stack: ["Nextjs", "AI", "Tailwindcss"],
+    slug: "fitnessai",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Fitness AI Support is an AI-powered chatbot designed to assist users
+          with their health and fitness-related queries. Built with a
+          user-friendly interface, it provides real-time support, guidance, and
+          answers to common fitness concerns.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
-    description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          THe chatbot is designed to help users achieve their wellness goals by
+          providing personalized recommendations and advice. Whether you're
+          looking to lose weight, build muscle, or improve your overall health,
+          Fitness AI Support is here to help. Get started today and take the
+          first step towards a healthier, happier you.{" "}
         </p>{" "}
       </div>
     ),
