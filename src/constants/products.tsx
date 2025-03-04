@@ -18,7 +18,7 @@ export const products = [
         <p>
           Welcome to AuraUI, where design meets functionality. AuraUI is an
           open-source component library crafted to help developers build
-          stunning, high-performance websites with ease. Whether you're working
+          stunning, high-performance websites with ease. Whether you&apos;re working
           on a personal project or building the next big thing, AuraUI offers a
           collection of beautifully designed, fully customizable components that
           integrate seamlessly with Next.js and Tailwind CSS.
@@ -27,7 +27,7 @@ export const products = [
           Our mission is to empower developers with tools that simplify the
           development process while maintaining a professional and polished
           aesthetic. Join our growing community of contributors and innovators,
-          and let's create something extraordinary together. Explore AuraUI, and
+          and let&apos;s create something extraordinary together. Explore AuraUI, and
           see how it can elevate your next project.
         </p>{" "}
       </div>
@@ -80,7 +80,7 @@ export const products = [
         </p>
         <p>
           THe chatbot is designed to help users achieve their wellness goals by
-          providing personalized recommendations and advice. Whether you're
+          providing personalized recommendations and advice. Whether you&apos;re
           looking to lose weight, build muscle, or improve your overall health,
           Fitness AI Support is here to help. Get started today and take the
           first step towards a healthier, happier you.{" "}
