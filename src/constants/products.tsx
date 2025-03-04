@@ -1,7 +1,6 @@
 import sidefolioAuraui from "public/images/auraui.webp";
 import sidefolioWeb3Campus from "public/images/web3campus.webp";
 import sidefolioFitnessAI from "public/images/fitnessai.webp";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
 
 export const products = [
   {
