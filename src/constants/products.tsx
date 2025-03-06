@@ -1,6 +1,7 @@
 import sidefolioAuraui from "public/images/auraui.webp";
 import sidefolioWeb3Campus from "public/images/web3campus.webp";
 import sidefolioFitnessAI from "public/images/fitnessai.webp";
+import sidefolioFlashloom from "public/images/flashloom.png";
 
 export const products = [
   {
@@ -17,17 +18,17 @@ export const products = [
         <p>
           Welcome to AuraUI, where design meets functionality. AuraUI is an
           open-source component library crafted to help developers build
-          stunning, high-performance websites with ease. Whether you&apos;re working
-          on a personal project or building the next big thing, AuraUI offers a
-          collection of beautifully designed, fully customizable components that
-          integrate seamlessly with Next.js and Tailwind CSS.
+          stunning, high-performance websites with ease. Whether you&apos;re
+          working on a personal project or building the next big thing, AuraUI
+          offers a collection of beautifully designed, fully customizable
+          components that integrate seamlessly with Next.js and Tailwind CSS.
         </p>
         <p>
           Our mission is to empower developers with tools that simplify the
           development process while maintaining a professional and polished
           aesthetic. Join our growing community of contributors and innovators,
-          and let&apos;s create something extraordinary together. Explore AuraUI, and
-          see how it can elevate your next project.
+          and let&apos;s create something extraordinary together. Explore
+          AuraUI, and see how it can elevate your next project.
         </p>{" "}
       </div>
     ),
@@ -39,7 +40,14 @@ export const products = [
       "Web3 Campus is an educational platform dedicated to teaching Web3.",
     thumbnail: sidefolioWeb3Campus,
     images: [sidefolioWeb3Campus],
-    stack: ["Nextjs", "Typescript", "Tailwindcss"],
+    stack: [
+      "Nextjs",
+      "Typescript",
+      "MongoDB",
+      "Airtable",
+      "Node JS",
+      "Tailwindcss",
+    ],
     slug: "web3campus",
     content: (
       <div>
@@ -83,6 +91,41 @@ export const products = [
           looking to lose weight, build muscle, or improve your overall health,
           Fitness AI Support is here to help. Get started today and take the
           first step towards a healthier, happier you.{" "}
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://flashloom-ai.vercel.app/",
+    title: "Flashloom",
+    description:
+      "A Flashcard generator that uses AI to help you learn and remember things faster.",
+    thumbnail: sidefolioFlashloom,
+    images: [sidefolioFlashloom],
+    stack: ["Nextjs", "AI", "Clerk", "Firebase", "Tailwindcss"],
+    slug: "flashloom",
+    content: (
+      <div>
+        <p>
+          Revolutionize your learning experience with our innovative AI-curated
+          interactive flashcards, designed to elevate your knowledge retention
+          and engagement! Features:- 1. Simply input your text and let our
+          software do the rest. Creating flashcards has never been easier 2 .Our
+          AI intelligently breaks down your text into concise flaschards,
+          perfect for studying. 3. Access your flashcards from any device, at
+          anytime. Study on the go with ease.
+        </p>
+        <p>
+          It is built using modern web technologies, including: Next.js: For
+          fast and efficient server-side rendering (SSR) and static site
+          generation (SSG). Firebase: For backend services like authentication,
+          database, and storage. Clerk: For user authentication and management.
+          AI Integration: Likely used to generate flashcards automatically based
+          on input topics. TypeScript: For better code safety and
+          maintainability. Tailwind CSS: For styling and responsive UI design.
+          This tool is designed to streamline studying by automating the
+          flashcard creation process, making learning faster and more
+          interactive. 🚀
         </p>{" "}
       </div>
     ),
