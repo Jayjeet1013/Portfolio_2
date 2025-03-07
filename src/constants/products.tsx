@@ -4,6 +4,9 @@ import sidefolioFitnessAI from "public/images/fitnessai.webp";
 import sidefolioFlashloom from "public/images/flashloom.png";
 import sidefolioLandJobber from "public/images/landjobber.png";
 import sidefolioLandJobber2 from "public/images/landjobber2.png";
+import sidefolioPortfolio from "public/images/portfolio.png";
+import sidefolioPortfolio2 from "public/images/portfolio2.png";
+
 
 export const products = [
   {
@@ -143,15 +146,46 @@ export const products = [
     content: (
       <div>
         <p>
-          LandJobber – Your Gateway to Endless Job Opportunities 🚀 .It
-          is a powerful job discovery platform that connects job seekers with
-          over 80 top job platforms.
+          LandJobber – Your Gateway to Endless Job Opportunities 🚀 .It is a
+          powerful job discovery platform that connects job seekers with over 80
+          top job platforms.
         </p>
         <p>
-          Whether you&apos;re looking for remote work, freelancing gigs, full-time
-          roles, or niche job boards, LandJobber makes it easy to explore and
-          access the best opportunities in one place. Simplify your job search
-          and find your perfect career path today! 🔍💼
+          Whether you&apos;re looking for remote work, freelancing gigs,
+          full-time roles, or niche job boards, LandJobber makes it easy to
+          explore and access the best opportunities in one place. Simplify your
+          job search and find your perfect career path today! 🔍💼
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://jayjeet-portfolio-tan.vercel.app/",
+    title: "Old Portfolio",
+    description: "This is my old portfolio website.",
+    thumbnail: sidefolioPortfolio,
+    images: [sidefolioPortfolio, sidefolioPortfolio2],
+    stack: ["Nextjs", "Tailwindcss"],
+    slug: "portfolio",
+    content: (
+      <div>
+        <p>
+          Jayjeet&apos;s Portfolio – Showcasing Skills & Projects 🚀 This portfolio
+          is a personal website designed to highlight Jayjeet&apos;s expertise as a
+          software developer. It provides a well-structured overview of his
+          technical skills, professional experience, and notable projects. Built
+          with a clean and minimalistic design, it offers visitors insights into
+          his work, tech stack, and achievements.
+        </p>
+        <p>
+          Key features of this portfolio: ✅ About Section – A brief
+          introduction to Jayjeet and his professional journey. ✅ Projects
+          Showcase – Displays a collection of past and ongoing projects with
+          descriptions. ✅ Skills & Technologies – Highlights the programming
+          languages, frameworks, and tools used. ✅ Contact Information –
+          Provides easy ways to connect and collaborate. This portfolio serves
+          as an online resume, making it easy for recruiters, collaborators, and
+          potential clients to explore Jayjeet&apos;s work in one place. 🚀💻
         </p>{" "}
       </div>
     ),
