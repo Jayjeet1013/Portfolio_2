@@ -2,6 +2,8 @@ import sidefolioAuraui from "public/images/auraui.webp";
 import sidefolioWeb3Campus from "public/images/web3campus.webp";
 import sidefolioFitnessAI from "public/images/fitnessai.webp";
 import sidefolioFlashloom from "public/images/flashloom.png";
+import sidefolioLandJobber from "public/images/landjobber.png";
+import sidefolioLandJobber2 from "public/images/landjobber2.png";
 
 export const products = [
   {
@@ -126,6 +128,30 @@ export const products = [
           This tool is designed to streamline studying by automating the
           flashcard creation process, making learning faster and more
           interactive. 🚀
+        </p>{" "}
+      </div>
+    ),
+  },
+  {
+    href: "https://landjobber.vercel.app/",
+    title: "LandJobber",
+    description: "Explore Job Opportunities with LandJobber",
+    thumbnail: sidefolioLandJobber,
+    images: [sidefolioLandJobber, sidefolioLandJobber2],
+    stack: ["Nextjs", "Tailwindcss"],
+    slug: "landjobber",
+    content: (
+      <div>
+        <p>
+          LandJobber – Your Gateway to Endless Job Opportunities 🚀 .It
+          is a powerful job discovery platform that connects job seekers with
+          over 80 top job platforms.
+        </p>
+        <p>
+          Whether you&apos;re looking for remote work, freelancing gigs, full-time
+          roles, or niche job boards, LandJobber makes it easy to explore and
+          access the best opportunities in one place. Simplify your job search
+          and find your perfect career path today! 🔍💼
         </p>{" "}
       </div>
     ),
