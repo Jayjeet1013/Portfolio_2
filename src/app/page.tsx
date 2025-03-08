@@ -12,9 +12,7 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Jayjeet</Heading>
       <Paragraph className="max-w-xl mt-4">
-        Hey there! 👋 I&apos;m Jayjeet Kumar, a frontend developer with
-        experience in building modern, responsive web applications using
-        technologies like React.js, Next.js, and Tailwind CSS.
+        Hey there! 👋 I&apos;m Jayjeet Kumar, a freelance frontend developer.
       </Paragraph>
 
       <Heading

@@ -43,7 +43,7 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there! 👋 I&apos;m Jayjeet Kumar, a frontend developer with
+          Hey there! 👋 I&apos;m Jayjeet Kumar, a freelance frontend developer with
           experience in building modern, responsive web applications using
           technologies like React.js, Next.js, and Tailwind CSS. I graduated in
           July 2024 with a B.Tech in Computer Science and Engineering from Amity
