@@ -23,6 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="4SZH9NZwe7wCw1MMskEBWLPVdaNm5pP1wb92aXeC3Vo"
+      />
       <body
         className={twMerge(
           inter.className,
