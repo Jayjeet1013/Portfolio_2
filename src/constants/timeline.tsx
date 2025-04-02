@@ -2,7 +2,7 @@ export const timeline = [
   {
     company: "AuraUI",
     title: "Co-Creator & Frontend Web Developer",
-    date: "May 2024 - Present",
+    date: "May 2024 - Feb 2025",
     description: "Building the Open-source UI component library",
     responsibilities: [
       "Developed the entire website using Next.js, Nextra, and Tailwind CSS.",
