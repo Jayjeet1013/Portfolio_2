@@ -135,30 +135,7 @@ export const products = [
       </div>
     ),
   },
-  {
-    href: "https://landjobber.vercel.app/",
-    title: "LandJobber",
-    description: "Explore Job Opportunities with LandJobber",
-    thumbnail: sidefolioLandJobber,
-    images: [sidefolioLandJobber, sidefolioLandJobber2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "landjobber",
-    content: (
-      <div>
-        <p>
-          LandJobber – Your Gateway to Endless Job Opportunities 🚀 .It is a
-          powerful job discovery platform that connects job seekers with over 80
-          top job platforms.
-        </p>
-        <p>
-          Whether you&apos;re looking for remote work, freelancing gigs,
-          full-time roles, or niche job boards, LandJobber makes it easy to
-          explore and access the best opportunities in one place. Simplify your
-          job search and find your perfect career path today! 🔍💼
-        </p>{" "}
-      </div>
-    ),
-  },
+  
   {
     href: "https://jayjeet-portfolio-tan.vercel.app/",
     title: "Old Portfolio",
