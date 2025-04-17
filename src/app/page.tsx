@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <Container>
       <span className="text-4xl">👋</span>
-      <Heading className="font-black">Hello there! I&apos;m Jayjeet</Heading>
+      <Heading className="font-black">Hello there! I&apos;m Jayjeet
+        <meta name="google-adsense-account" content="ca-pub-6465081033679741"></meta>
+      </Heading>
       <Paragraph className="max-w-xl mt-4">
         Hey there! 👋 I&apos;m Jayjeet Kumar, a freelance frontend developer.
       </Paragraph>
