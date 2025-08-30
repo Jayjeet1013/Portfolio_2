@@ -13,8 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Jayjeet Kumar - Developer",
   description:
-    "Jayjeet Kumar is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Jayjeet Kumar is a Full-Stack Developer, App Developer, Entrepreneur, and Freelancer. He enjoys traveling, reading novels, and exploring new technologies.",
 };
+
 
 export default function RootLayout({
   children,
