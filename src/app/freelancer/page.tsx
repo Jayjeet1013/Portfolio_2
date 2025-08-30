@@ -75,12 +75,17 @@ export default function Page() {
           transition={{ duration: 0.55, ease: "easeOut" }}
           className="mx-auto mb-10 max-w-3xl text-center sm:mb-12"
         >
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
             Freelancer Portfolio
           </h1>
           <p className="mt-3 text-slate-600 sm:text-lg">
-            Selected client work and projects. Focused on clean UX, performance,
-            and maintainable code.
+            Showcasing freelance projects crafted with{" "}
+            <span className="font-semibold text-slate-900">clean design</span>,
+            <span className="font-semibold text-slate-900">
+              smooth performance
+            </span>
+            , and 
+            <span className="font-semibold text-slate-900"> scalable code</span>.
           </p>
         </motion.header>
 
@@ -124,10 +129,6 @@ export default function Page() {
                     →
                   </span>
                 </Link>
-
-                <span className="rounded-full border border-slate-200 bg-white/70 px-2.5 py-1 text-xs text-slate-500">
-                  Case Study
-                </span>
               </div>
 
               {/* subtle bottom gradient on hover */}
