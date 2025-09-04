@@ -4,7 +4,7 @@ import { Navlink } from "@/types/navlink";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { Heading } from "./Heading";
 import { socials } from "@/constants/socials";
@@ -14,7 +14,12 @@ import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
 import { isMobile } from "@/lib/utils";
 
 export const Sidebar = () => {
-  const [open, setOpen] = useState(isMobile() ? false : true);
+  // Start with a deterministic SSR value; adjust on mount to avoid hydration mismatch
+  const [open, setOpen] = useState(true);
+
+  useEffect(() => {
+    setOpen(isMobile() ? false : true);
+  }, []);
 
   return (
     <>
