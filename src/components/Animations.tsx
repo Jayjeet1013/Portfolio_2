@@ -9,7 +9,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function Animations() {
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
       return;
     }
     gsap.registerPlugin(ScrollTrigger);
@@ -49,7 +52,9 @@ export default function Animations() {
       $("[data-stagger='children']").forEach((container) => {
         const targets = Array.from(container.children) as HTMLElement[];
         if (!targets.length) return;
-        const delay = parseFloat((container as HTMLElement).dataset.delay || "0");
+        const delay = parseFloat(
+          (container as HTMLElement).dataset.delay || "0"
+        );
         const duration = parseFloat(
           (container as HTMLElement).dataset.duration || "0.5"
         );

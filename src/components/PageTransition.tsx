@@ -15,7 +15,10 @@ export default function PageTransition({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
       return;
     }
     gsap.fromTo(
