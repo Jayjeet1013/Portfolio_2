@@ -21,10 +21,10 @@ export const metadata: Metadata = {
   },
 };
 
-const Animations = dynamic(() => import("@/components/Animations"), {
+const Animations = dynamic(() => import("../components/Animations"), {
   ssr: false,
 });
-const PageTransition = dynamic(() => import("@/components/PageTransition"), {
+const PageTransition = dynamic(() => import("../components/PageTransition"), {
   ssr: false,
 });
 
