@@ -88,6 +88,7 @@ export const Navigation = ({
       </Heading>
       {socials.map((link: Navlink) => (
         <Link
+          target="_blank"
           key={link.href}
           href={link.href}
           className={twMerge(
