@@ -20,6 +20,12 @@ const projects: Project[] = [
       "A thesis-driven Digital Asset fund investing across diverse digital assets in private and public markets.",
   },
   {
+    title: "SuperPortal",
+    href: "https://superportal.ai/",
+    description:
+      "Streamline DeFi Operations, leverage Swarms for real-time DeFi operations across multiple blockchains",
+  },
+  {
     title: "DepNetwork",
     href: "https://depnetwork.vercel.app/",
     description:
