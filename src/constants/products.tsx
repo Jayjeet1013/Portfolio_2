@@ -2,6 +2,8 @@ import sidefolioAuraui from "public/images/auraui.webp";
 import sidefolioWeb3Campus from "public/images/web3campus.webp";
 import sidefolioFitnessAI from "public/images/fitnessai.webp";
 import sidefolioFlashloom from "public/images/flashloom.png";
+import sidefolioLandArchi from "public/images/landarchi.png";
+import sidefolioLandArchi2 from "public/images/landarchi2.png";
 import sidefolioLandJobber from "public/images/landjobber.png";
 import sidefolioLandJobber2 from "public/images/landjobber2.png";
 import sidefolioPortfolio from "public/images/portfolio.png";
@@ -38,6 +40,39 @@ export const products = [
       </div>
     ),
   },
+  {
+  href: "https://landarchi.xyz/",
+  title: "LandArchi",
+  description:
+    "An AI-powered platform that generates instant 2D and 3D land layout designs for architects, landowners, companies.",
+  thumbnail: sidefolioLandArchi,
+  images: [sidefolioLandArchi,sidefolioLandArchi2],
+  stack: ["Nextjs", "AI", "Supabase", "Tailwindcss", "Nodejs"],
+  slug: "landarchi",
+  content: (
+    <div>
+      <p>
+        LandArchi is an AI Architect Agent designed to simplify and speed up land design.
+        Instead of spending hours manually drafting layouts, architects and engineers
+        can generate accurate 2D and 3D land designs instantly. Features include:
+        1. Enter land dimensions and requirements to generate instant 2D layouts.
+        2. AI-powered automation reduces repetitive drafting work.
+        3. Upcoming features include 3D generation, voice-based input in local
+        languages, and AR/VR visualization for immersive design previews.
+      </p>
+      <p>
+        It is built using modern web technologies, including:
+        Next.js for fast performance and SEO optimization.
+        Supabase for authentication and database management.
+        Node.js for backend services and AI workflow integration.
+        AI models for automated layout generation.
+        Tailwind CSS for clean and responsive UI design.
+        The platform helps architects and firms save time, reduce costs,
+        and scale their design operations efficiently. 🚀
+      </p>
+    </div>
+  ),
+},
   {
     href: "https://web3-campus.vercel.app/",
     title: "Web3Campus",
@@ -136,35 +171,4 @@ export const products = [
     ),
   },
   
-  {
-    href: "https://jayjeet-portfolio-tan.vercel.app/",
-    title: "Old Portfolio",
-    description: "This is my old portfolio website.",
-    thumbnail: sidefolioPortfolio,
-    images: [sidefolioPortfolio, sidefolioPortfolio2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "portfolio",
-    content: (
-      <div>
-        <p>
-          Jayjeet&apos;s Portfolio – Showcasing Skills & Projects 🚀 This portfolio
-          is a personal website designed to highlight Jayjeet&apos;s expertise as a
-          software developer. It provides a well-structured overview of his
-          technical skills, professional experience, and notable projects. Built
-          with a clean and minimalistic design, it offers visitors insights into
-          his work, tech stack, and achievements.
-        </p>
-        <p>
-          Key features of this portfolio: ✅ About Section – A brief
-          introduction to Jayjeet and his professional journey. ✅ Projects
-          Showcase – Displays a collection of past and ongoing projects with
-          descriptions. ✅ Skills & Technologies – Highlights the programming
-          languages, frameworks, and tools used. ✅ Contact Information –
-          Provides easy ways to connect and collaborate. This portfolio serves
-          as an online resume, making it easy for recruiters, collaborators, and
-          potential clients to explore Jayjeet&apos;s work in one place. 🚀💻
-        </p>{" "}
-      </div>
-    ),
-  },
 ];

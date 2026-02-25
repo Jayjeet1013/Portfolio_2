@@ -15,13 +15,13 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Asva Capital",
-    href: "https://asvaventures.com/",
+    href: "https://asva-capital-demo.vercel.app/",
     description:
       "A thesis-driven Digital Asset fund investing across diverse digital assets in private and public markets.",
   },
   {
     title: "SuperPortal",
-    href: "https://superportal.ai/",
+    href: "https://superportal-sooty.vercel.app/",
     description:
       "Streamline DeFi Operations, leverage Swarms for real-time DeFi operations across multiple blockchains",
   },
@@ -39,7 +39,7 @@ const projects: Project[] = [
   },
   {
     title: "Hash Stone Capital",
-    href: "https://hash-stone-capital.com/",
+    href: "https://hash-stone-capital.vercel.app/",
     description:
       "Digital asset investment firm delivering innovative strategies for the evolving crypto landscape.",
   },
