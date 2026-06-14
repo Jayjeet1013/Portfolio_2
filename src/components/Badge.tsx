@@ -6,10 +6,8 @@ export const Badge = ({
   text,
   href,
   ...props
-}: {
+}: React.ComponentProps<typeof Link> & {
   text: string;
-  href: string;
-  props?: React.ComponentProps<typeof Link>;
 }) => {
   return (
     <Link
@@ -31,9 +29,9 @@ export const Badge = ({
         >
           <motion.path
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
             d="M10.75 8.75L14.25 12L10.75 15.25"
             initial={{ pathLength: 0 }}
             animate={{ pathLength: 1 }}
